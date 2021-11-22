@@ -1,10 +1,14 @@
-
+import TitleBox from "./components/TitleBox/TitleBox";
+import GlobalStyles from "./GlobalStyles";
 
 function App() {
   return (
-  <p>
-  Hello world
-  </p>)
+  <>
+  <GlobalStyles />
+  <TitleBox />
+  </>
+  )
 }
 
 export default App;
+
