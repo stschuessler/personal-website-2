@@ -14,23 +14,31 @@ function TitleBox () {
 export default TitleBox;
 
 const romoveInLeft = keyframes`
-    from {
+    0% {
         opacity: 0;
         transform: translateX(-100px);
     }
 
-    to {
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
         opacity: 1;
         transform: translateX(0);
     }`
 
 const romoveInRight = keyframes`
-    from {
+    0% {
         opacity: 0;
         transform: translateX(100px);
     }
 
-    to {
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
         opacity: 1;
         transform: translateX(0);
     }`
